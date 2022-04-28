@@ -1,0 +1,100 @@
+body{
+  background-color: #0C0B0B;
+  font-family: 'Rubik', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color: #0F0E0E;
+  margin-top: 4.5em;
+  width: 100%;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.container__itens{
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 5px;
+  text-align: center;
+  position: relative;
+  top: -25px;
+}
+
+.nome__usuario{
+  color: #B7B7B7;
+  margin-top: 0px;
+}
+
+.nome__arroba{
+  color: #B7B7B7;  
+}
+
+.botao__edit--item{
+  background-color: #252525;
+  text-decoration: none;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  border-radius: 4px;
+  color: #B7B7B7;  
+  width: 64px;
+}
+
+.edit__item{
+  margin-right: 3px;
+}
+
+/* .edit__item-imagem::before{
+  content: url(/img/botao-editar.png);
+} */
+
+
+.caixa_itens, .caixa_itens-secundario, .caixa_itens-terceiro{
+  background-color: #046313;
+  margin-top: 25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+  width: 45%;
+}
+
+.caixa_itens-secundario{
+  background-color: #044A7D;
+}
+
+.caixa_itens-terceiro{
+  background-color: #725200;
+}
+
+.titulo__item{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contexto__item{
+  font-size: 26px;
+  font-weight: 700;
+}
+
+
+.circulo{
+  background-color: #252525;
+  align-self: center;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 20px;
+  top: -40px;
+  left: 0px;
+}
